@@ -1,3 +1,6 @@
 print("Hola mundo")
 nom =input("ingrese nombre: ")
 print("Hola ",nom)
+edad =int(input("ingrese su edad: "))
+if edad > 18: print("ud es mayor de edad ")
+else: print("Usted es un niño")
